@@ -87,6 +87,7 @@ public class Controller
 				Integer.parseInt(example);
 				isValid= true;
 			}
+			//catches the error NumberFormat and doesn't display error message in Java but Prints text to say that it isn't a valid integer.
 			catch(NumberFormatException error)
 			{
 				System.out.println("Type in a valid int value human!");
